@@ -51,8 +51,7 @@
                   
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
-                    
+                  <ul class="nav nav-pills nav-stacked" id="miniMenu">
                     <li><a href="#">Ínicio</a></li>
                     <li><a href="#">A empresa</a></li>
                     <li><a href="#">Internet</a></li>

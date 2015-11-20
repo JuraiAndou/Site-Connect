@@ -83,6 +83,13 @@ ul li ul.dropdown li{
     display: block;
     border:none;
 }
+#miniMenu{
+    margin: 0;
+    width: 100%;
+}
+#miniMenu li{
+    border: none;
+}
 #menu{width: 100%;}
 li:first-child{border:none;}
 img#miniLogo{display: none;transition:1.5s;}
@@ -94,7 +101,6 @@ nav.navbar{display: none;}
 ***********-----MEDIA QUERIES-----********
 * ****************************************
 */
-
 
 @media all and (max-width:880px){
     .logo{
