@@ -27,10 +27,10 @@ span#btnAreaCliente{
     top: 3px;
 }
 .logo{
+    transition:2s;
     position: fixed;
     top: 10px;
     margin-left: 26.8%;
-    transition:1.5s;
 }
 nav#nav{
     width:100%;
@@ -107,7 +107,7 @@ nav.navbar{display: none;}
         position: relative;
         top:18px;
         right:40px;
-        transition:1.5s;    
+        transition:2s;
     }
     button.areaCliente{
         position: relative;
@@ -130,11 +130,11 @@ nav.navbar{display: none;}
  @media all and (max-width: 700px){
     .logo{display: none;}
     img#miniLogo{
+        transition:1.5s;
         display: block;
         position: relative;
         top:40px;
-        margin-left: 20%;
-        transition:1.5s;
+        margin-left: 10%;
     }
         button.areaCliente{
         position: relative;
