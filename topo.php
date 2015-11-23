@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Connect</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/topo.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"> </script>
@@ -13,7 +13,6 @@
     <header>
         <div class="header">
             <img src="imagens/logo.gif" class="logo"/>
-            <img src="imagens/miniLogo.png" id="miniLogo"/>
             <button class="areaCliente">
                 <img src="imagens/areaClienteIcon.gif" alt="" id="imgCliente">
                 <span id="btnAreaCliente">Área Cliente</span>
@@ -42,13 +41,12 @@
             <!--Menu Dropdown-->
             <nav class="navbar navbar-default">
                 <div class="navbar-header">
-                    <span></span>
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  
+                
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav nav-pills nav-stacked" id="miniMenu">
