@@ -110,15 +110,16 @@ button.areaClienteMini{display: none;}
         margin-left: 26.8%;
     }
     button.navbar-brand{
-        width: 50px;
-        height: 40px;
+        width: 44px;
+        height: 34px;
         margin: 0;
         border: 0;
         padding: 0;
         position: relative;
-        top:5px;
+        top:8px;
         margin-left: 1.5%;
         background-color: #000a59;
+        outline: none;
     }
     .navbar-toggle{
         background-color: #000a59!important;
@@ -128,9 +129,10 @@ button.areaClienteMini{display: none;}
     }    
     div#menu{position: relative;top:-25px;}
     img#imgClienteMini{
-        width: 50px;
-        height: 40px;
-        border-radius: 7px;
+        width: 44px;
+        height: 34px;
+        border-radius: 5px;
+        border: 1px solid white;
     }
  }
 @media all and (max-width: 700px){

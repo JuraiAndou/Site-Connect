@@ -13,11 +13,7 @@
         
     ?>
     <footer>
-        <div class="modal-footer">
-            <p>
-                <a>teste</a>
-            </p>
-        </div>
+        <p id="direitos">Copyright 2015 Connect - Alguns direitos reservados</p>
     </footer>
 </body>
 </html>
