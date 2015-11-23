@@ -1,13 +1,41 @@
 @charset "UTF-8";
 footer {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
+}
+
+/*aba de links do footer*/
+nav#footerMenu {
+    margin-bottom: 15px;
+    margin-right: -10px;
+}
+div#abaDireitos{
+    padding-bottom: 2px;
     padding-top: 13px;
     background-color: #00225c;
     border-top: 1px solid grey;
 }
-p#direitos {
-     position: relative;
-     margin-left: 25%; color: white;
+p.direitos {
+    position: relative;
+    margin-left: 24%;
+    color: white;
+    transition: 0.5s;
+}
+
+/*media das abas*/
+@media all and (max-width: 1388px){
+    p.direitos{
+        margin-left: 20%;
+    }
+}
+@media all and (max-width: 937px){
+    p.direitos{
+        margin-left: 15%;
+    }
+}
+@media all and (max-width: 410px){
+    p.direitos{
+        margin-left: 5%;
+    }
 }

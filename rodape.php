@@ -13,7 +13,14 @@
         
     ?>
     <footer>
-        <p id="direitos">Copyriight 2015 Connect-Alguns direitos reservados.</p>
+        <nav id="footerMenu">
+            <ul>
+                <li><img src="imagens/logoSemNome.png"></li>
+            </ul>
+        </nav>
+        <div id="abaDireitos">
+            <p class="direitos">Copyriight 2015 Connect - Alguns direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
