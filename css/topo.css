@@ -3,32 +3,32 @@ body{
     margin: 0;
     padding: 0;
     border:0;
+    background-color: #FFF!important;
 }
 .header{
     position: relative;
     width: 100%;
     height: 150px;
-    background-color: #fdfdfe;
-    bottom: 8px;
+    bottom: 0px;
 }
 button.areaCliente{
     position: relative;
     margin-left: 63%;
-    top:50px;
+    top:-65px;
     width: 180px;
     height:45px;
     background-color:#e8ab00;
     border:none;
     font-size: 14pt;
-    transition:1s width;
+
 }
 span#btnAreaCliente{
     position: relative;
     top: 3px;
 }
-.logo{
-    transition:2s;
-    position: fixed;
+img.logo{
+    transition:1s;
+    position: relative;
     top: 10px;
     margin-left: 26.8%;
 }
@@ -90,11 +90,12 @@ ul li ul.dropdown li{
 #miniMenu li{
     border: none;
 }
-#menu{width: 100%;}
+div#menu{width: 100%;position: relative;top:-10px;}
 li:first-child{border:none;}
 img#miniLogo{display: none;transition:1.5s;}
 a.a:hover{text-decoration:none;color:white;}
 nav.navbar{display: none;}
+button.areaClienteMini{display: none;}
 
 /**
 * ****************************************
@@ -102,13 +103,63 @@ nav.navbar{display: none;}
 * ****************************************
 */
 
- @media all and (max-width: 700px){
-    button.areaCliente{
-        display: none;
+ @media all and (max-width: 852px){
+    button.areaCliente{display: none;}
+    img.logo{
+        position: relative;
+        margin-left: 26.8%;
     }
+    button.navbar-brand{
+        width: 50px;
+        height: 40px;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        position: relative;
+        top:5px;
+        margin-left: 1.5%;
+        background-color: #000a59;
+    }
+    .navbar-toggle{
+        background-color: #000a59!important;
+    }
+    .navbar-toggle:hover{
+        background-color: #192269!important;
+    }    
+    div#menu{position: relative;top:-25px;}
+    img#imgClienteMini{
+        width: 50px;
+        height: 40px;
+        border-radius: 7px;
+    }
+ }
+@media all and (max-width: 700px){
+    button.areaCliente{display: none;}
     nav.navbar{
         display: block;
         background-color: #000a59;
     }
-    nav#nav{display: none;}
+    nav#nav{
+        display: none;
+
+    }
+    img.logo{
+        position: relative;
+        margin-left: 19%;
+
+    }
+ }
+ @media all and (max-width: 494px){
+    button.areaCliente{display: none;}
+    img.logo{
+        position: relative;
+        margin-left: 15%;
+    }
+ }
+  @media all and (max-width: 304px){
+    button.areaCliente{display: none;}
+    img.logo{
+        position: relative;
+        margin-left: 1%;
+    }
  }

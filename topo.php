@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"> </script>
 </head>
-<body>
+<body background="red">
     <?php
 
     ?>
@@ -16,7 +16,7 @@
         <div class="header">
             <img src="imagens/logo.gif" class="logo"/>
             <button class="areaCliente">
-                <img src="imagens/areaClienteIcon.gif" alt="" id="imgCliente">
+                <img src="imagens/areaClienteIcon.png" alt="" id="imgCliente">
                 <span id="btnAreaCliente">Área Cliente</span>
             </button>
         </div>
@@ -43,23 +43,24 @@
             <!--Menu Dropdown-->
             <nav class="navbar navbar-default">
                 <div class="navbar-header">
-                    <span></span>
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  
+                    <button class="navbar-brand">
+                        <img src="imagens/areaClienteIconMini.png"  id="imgClienteMini">
+                    </button>                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav nav-pills nav-stacked" id="miniMenu">
-                    <li><a href="#">Ínicio</a></li>
-                    <li><a href="#">A empresa</a></li>
-                    <li><a href="#">Internet</a></li>
-                    <li><a href="#">Cobertura</a></li>
-                    <li><a href="#">Assinaturas</a></li>
-                    <li><a href="#" >Contatos</a></li>
-                  </ul>
+                    <ul class="nav nav-pills nav-stacked" id="miniMenu">
+                        <li><a href="#">Ínicio</a></li>
+                        <li><a href="#">A empresa</a></li>
+                        <li><a href="#">Internet</a></li>
+                        <li><a href="#">Cobertura</a></li>
+                        <li><a href="#">Assinaturas</a></li>
+                        <li><a href="#" >Contatos</a></li>
+                    </ul>
                 </div>
             </nav>  
             <!--Fim Meny DropDown-->
