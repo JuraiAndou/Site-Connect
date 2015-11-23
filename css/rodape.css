@@ -3,16 +3,4 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding-top: 13px;
-    border-top: 1px solid gray;
-}
-p#direitos{
-    position: relative;
-    margin-left: 25%;
-}
-@media all and(max-width: 579px) {
-    p#direitos{
-        position: relative;
-        margin-left: 1px;
-    }
 }
