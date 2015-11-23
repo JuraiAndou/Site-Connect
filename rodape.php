@@ -13,7 +13,7 @@
         
     ?>
     <footer>
-        <p id="direitos">teste</p>
+        <p id="direitos">Copyriight 2015 Connect-Alguns direitos reservados.</p>
     </footer>
 </body>
 </html>
