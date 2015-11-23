@@ -2,14 +2,16 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Connect</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/topo.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"> </script>
 </head>
 <body>
+    <?php
+
+    ?>
     <header>
         <div class="header">
             <img src="imagens/logo.gif" class="logo"/>
@@ -64,7 +66,6 @@
             <!--Fim Meny DropDown-->
         </div>
     </header>
-    
 </body>
 </html>
 
