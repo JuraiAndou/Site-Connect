@@ -13,11 +13,7 @@
         
     ?>
     <footer>
-        <div class="modal-footer">
-            <p>
-                <a>teste</a>
-            </p>
-        </div>
+        <p id="direitos">teste</p>
     </footer>
 </body>
 </html>
