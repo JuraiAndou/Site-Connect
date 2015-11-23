@@ -110,28 +110,25 @@ button.areaClienteMini{display: none;}
         margin-left: 26.8%;
     }
     button.navbar-brand{
-        width: 50px;
-        height: 40px;
+        width: 44px;
+        height: 34px;
         margin: 0;
         border: 0;
         padding: 0;
         position: relative;
-        top:5px;
-        margin-left: 1.5%;
+        top:8px;
+        margin-left: 2%;
         background-color: #000a59;
     }
-    .navbar-toggle{
-        background-color: #000a59!important;
-    }
-    .navbar-toggle:hover{
-        background-color: #192269!important;
-    }    
-    div#menu{position: relative;top:-25px;}
     img#imgClienteMini{
-        width: 50px;
-        height: 40px;
-        border-radius: 7px;
+        width: 44px;
+        height: 34px;
+        border-radius: 5px;
+        border:1px solid white;
     }
+    .navbar-toggle{background-color: #000a59!important;}
+    .navbar-toggle:hover{background-color: #192269!important;}    
+    div#menu{position: relative;top:-25px;}
  }
 @media all and (max-width: 700px){
     button.areaCliente{display: none;}
