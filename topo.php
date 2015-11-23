@@ -15,7 +15,6 @@
     <header>
         <div class="header">
             <img src="imagens/logo.gif" class="logo"/>
-            <img src="imagens/miniLogo.png" id="miniLogo"/>
             <button class="areaCliente">
                 <img src="imagens/areaClienteIcon.gif" alt="" id="imgCliente">
                 <span id="btnAreaCliente">Área Cliente</span>

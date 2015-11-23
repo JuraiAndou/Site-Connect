@@ -102,56 +102,13 @@ nav.navbar{display: none;}
 * ****************************************
 */
 
-@media all and (max-width:880px){
-    .logo{
-        position: relative;
-        top:18px;
-        right:40px;
-        transition:2s;
-    }
-    button.areaCliente{
-        position: relative;
-        top:-58px;
-    }
- }
-@media all and (max-width: 750px){
-    button.areaCliente{
-        position: relative;
-        height: 45px;
-        width: 80px;
-        border-radius: 10px;
-        top:-57px;
-    }
-    span#btnAreaCliente{
-        display: none;
-    }
-
- }
  @media all and (max-width: 700px){
-    .logo{display: none;}
-    img#miniLogo{
-        transition:1.5s;
-        display: block;
-        position: relative;
-        top:40px;
-        margin-left: 10%;
-    }
-        button.areaCliente{
-        position: relative;
-        height: 45px;
-        width: 80px;
-        border-radius: 10px;
-        top:-20px;
+    button.areaCliente{
+        display: none;
     }
     nav.navbar{
         display: block;
         background-color: #000a59;
     }
     nav#nav{display: none;}
- }
- @media all and(max-width: 620px){
-    nav#nav ul{
-        position: relative;
-    }
-
  }
