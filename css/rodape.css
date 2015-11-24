@@ -1,11 +1,78 @@
 @charset "UTF-8";
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 /*aba de links do footer*/
+nav#breadcrumb{
+    display: none;
+}
+ul#BC2{
+     display: none;
+}
+nav#footerMenu{
+    margin-left: 8%!important;
+    transition: .2s;
+}
+img#logoSemNome{
+    border-right: 2px solid #edb601;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+li{
+    border: none;
+}
+li:hover{
+    background-color: transparent;
+}
+a.link{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 11pt;
+    color: black;
+ }
+a.link{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px solid #edb601;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+a.subLink{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    color: black;
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+a#subLink1{
+    position: relative;
+    right: 428px;
+    top: 21px;
+}
+a#subLink2{
+    position: relative;;
+    left: 86px;
+    top: 18px;
+}
+a#subLink3{
+    position: relative;
+    right: 11px;
+    top: 40px;
+}
+a#contato{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*aba de copyright*/
 nav#footerMenu {
     margin-bottom: 15px;
     margin-right: -10px;
@@ -22,7 +89,6 @@ p.direitos {
     color: white;
     transition: 0.5s;
 }
-
 /*media das abas*/
 @media all and (max-width: 1388px){
     p.direitos{
@@ -32,6 +98,62 @@ p.direitos {
 @media all and (max-width: 937px){
     p.direitos{
         margin-left: 15%;
+    }
+}
+@media all and (max-width: 720px){
+    nav#footerMenu{
+        display: none;
+    }
+    nav#breadcrumb{
+        display: block;
+        position: relative;
+        bottom: 5px;
+        left: 5%;
+        height: 100px;
+    }
+
+    ul#BC{
+        height: 100%;
+    }
+    a#subLink1{
+        position: relative;
+        right: 428px;
+        top: 21px;
+    }
+    a#subLink4{
+        position: relative;
+        right: 525px;
+        top: 38px;
+    }
+    a#subLink5{
+        position: relative;
+        left: 86px;
+        top: 32px;
+    }
+    a.link{
+        color: white;
+    }
+    a#contato{
+        color: white;
+    }
+    a.subLink{
+        color: white;
+    }
+}
+@media all and (max-width: 539px){
+    nav#breadcrumb{
+        height: 150px;
+    }
+    ul#BC{
+        display: none;
+    }
+    ul#BC2{
+        display: block;
+        height: 140px;
+        border-left: 2px solid #edb601;
+    }
+    a.link{
+        border: none;
     }
 }
 @media all and (max-width: 410px){
