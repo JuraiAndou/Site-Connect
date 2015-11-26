@@ -1,71 +1,70 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+ <!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/topo.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"> </script>
-</head>
-<body background="red">
-    <?php
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/topo.css">
+  <link  rel="stylesheet" href="css/rodape.css">
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
+  <script>
+    $(document).ready(function() {
+        $("li#btn").click(function(){
+            $("ul#dropdown").toggle("fast");
+        });
 
-    ?>
-    <header>
-        <div class="header">
-            <img src="imagens/logo.gif" class="logo"/>
-            <button class="areaCliente">
-                <img src="imagens/areaClienteIcon.png" alt="" id="imgCliente">
-                <span id="btnAreaCliente">Área Cliente</span>
-            </button>
-        </div>
-        <div id="menu">
-        <!--  -->
-            <nav id="nav">
-                <ul>
-                    <li><a href="#home" class="a">Ínicio</a></li>
-                    <li><a href="#news" class="a">A Empresa</a></li>
-                    <li>
-                        <a href="#contact" class="a">Internet</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Lorem submenu1</a></li>
-                            <li><a href="#">Lorem submenu2</a></li>
-                            <li><a href="#">Lorem submenu3</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#about" class="a">Cobertura</a></li>
-                    <li><a href="#about" class="a">Assinatura</a></li>
-                    <li><a href="#about" class="a">Contato</a></li>
-                </ul>
-            </nav>
-        <!--  -->
-            <!--Menu Dropdown-->
-            <nav class="navbar navbar-default">
-                <div class="navbar-header">
-                    <button class="navbar-brand">
-                        <img src="imagens/areaClienteIconMini.png"  id="imgClienteMini">
-                    </button>                    
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav nav-pills nav-stacked" id="miniMenu">
-                        <li><a href="#">Ínicio</a></li>
-                        <li><a href="#">A empresa</a></li>
-                        <li><a href="#">Internet</a></li>
-                        <li><a href="#">Cobertura</a></li>
-                        <li><a href="#">Assinaturas</a></li>
-                        <li><a href="#" >Contatos</a></li>
-                    </ul>
-                </div>
-            </nav>  
-            <!--Fim Meny DropDown-->
-        </div>
-    </header>
-</body>
-</html>
+        $("li#btn2").click(function(){
+            $("ul#dropdown2").toggle("fast");
+        });
+    });
+  </script>
+
+  <script>
+  $(document).ready(function(){
+      $(".nav_bar").click(function(){
+        $(".navigation").toggleClass("visible");
+        $("body").toggleClass("opacity");z
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <img src="imagens/logo.gif" alt="" class="logo">
+  <button  class="btnCliente">
+    <img src="imagens/areaClienteIcon.png" alt="">
+    <span id="txtBtn">Área Cliente</span>
+  </button>
+    <nav>
+      <div class="navigation">
+        <ul id="ul">
+          <li><a href="">Ínicio</a></li>
+          <li  id="btn">
+            <a href="#">Empresa<span class="arrow-down"></span></a>
+            <ul class="dropdown" id="dropdown">
+              <li class="submenu"><a href="">Teste</a></li>
+              <li class="submenu"><a href="">Teste</a></li>
+              <li class="submenu"><a href="">Teste</a></li>
+            </ul>            
+          </li>
+          <li  id="btn2">
+            <a href="#">Internet<span class="arrow-down"></span></a>
+            <ul class="dropdown" id="dropdown2">
+              <li class="submenu"><a href="">Teste</a></li>
+              <li class="submenu"><a href="">Teste</a></li>
+              <li class="submenu"><a href="">Teste</a></li>
+            </ul>            
+          </li>
+          <li><a href="#" tabindex="1">Cobertura</a></li>
+          <li><a href="#" tabindex="1">Assinaturas</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+      </div>
+      <div class="nav_bg">
+        <div class="nav_bar"> <span></span> <span></span> <span></span> </div>
+      </div>
+    </nav> 
+
 
