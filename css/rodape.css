@@ -9,7 +9,7 @@ footer {
 /*aba de links do footer*/
 nav#footerMenu{
     position: relative;
-    left: 25%!important;
+    left: 37%!important;
     transition: .2s;
     top:-50px;
 }
@@ -92,22 +92,33 @@ p.direitos {
     p.direitos{
         margin-left: 20%;
     }
+    nav#footerMenu{
+        left: 30% !important;
+    }
+}
+@media all and (max-width: 971px) {
+    nav#footerMenu{
+        left: 19% !important;
+    }
 }
 @media all and (max-width: 937px){
     p.direitos{
         margin-left: 15%;
     }
 }
-@media all and (max-width: 720px){
+@media all and (max-width: 767px) {
     nav#footerMenu{
         display: none;
     }
-}
-@media all and (max-width: 539px){
-
+    div#abaDireitos{
+        top: 75px;
+    }
 }
 @media all and (max-width: 410px){
     p.direitos{
         margin-left: 5%;
+    }
+    span#spanDireitos{
+        display: none;
     }
 }
