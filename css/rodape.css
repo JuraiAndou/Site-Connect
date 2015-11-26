@@ -92,6 +92,9 @@ p.direitos {
     nav#footerMenu{
         display: none;
     }
+    p span{
+        display: none;
+    }
 }
 @media all and (max-width: 539px){
 

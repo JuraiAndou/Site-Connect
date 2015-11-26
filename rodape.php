@@ -32,7 +32,7 @@
         </nav>
 
         <div id="abaDireitos">
-            <p class="direitos">Copyright 2015 Connect - Alguns direitos reservados.</p>
+            <p class="direitos">Copyright 2015 Connect<span> - Alguns direitos reservados.</span></p>
         </div>
     </footer>
 </body>
