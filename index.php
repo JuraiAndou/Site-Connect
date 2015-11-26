@@ -1,4 +1,4 @@
-<?php include('topo.php'); ?>
+<?php include('topo.html'); ?>
 <?php include('rodape.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
