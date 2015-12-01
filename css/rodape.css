@@ -7,6 +7,7 @@ footer {
 
 /*aba de links do footer*/
 nav#footerMenu{
+    width: 800px;
     position: relative;
     left: 37%!important;
     transition: .2s;
@@ -67,10 +68,6 @@ a#contato{
     padding-right: 20px;
 }
 /*aba de copyright*/
-nav#footerMenu {
-    margin-bottom: 15px;
-    margin-right: -10px;
-}
 div#abaDireitos{
     padding-bottom: 2px;
     padding-top: 14px;
@@ -79,9 +76,13 @@ div#abaDireitos{
     position: relative;
     top: 70%!important;
 }
+span#spanDireitos{
+    width: 100px;
+}
 p.direitos {
+    margin-left: 0;
+    display: block;
     position: relative;
-    margin-left: 24%;
     color: white;
     transition: 0.5s;
     margin-bottom: 15px;
@@ -89,25 +90,54 @@ p.direitos {
 /*media das abas*/
 @media all and (max-width: 1388px){
     p.direitos{
-        margin-left: 20%;
+        left: -19% !important;
     }
     nav#footerMenu{
         left: 30% !important;
     }
 }
-@media all and (max-width: 971px) {
+@media all and (max-width: 1217px){
+    p.direitos{
+        left: -25%!important;
+    }
+    nav#footerMenu{
+        left: 30% !important;
+    }
+    span#spanDireitos{
+        display: none;
+    }
+}
+@media all and (max-width: 976px) {
+    p.direitos{
+        left: -40% !important;
+    }
     nav#footerMenu{
         left: 19% !important;
     }
 }
-@media all and (max-width: 937px){
+@media all and (max-width: 974px) {
     p.direitos{
-        margin-left: 15%;
+        left: -52% !important;
+    }
+    nav#footerMenu{
+        left: 19% !important;
+    }
+}
+@media all and (max-width: 897px) {
+    p.direitos{
+        left: 13% !important;
+    }
+    nav#footerMenu{
+        display: none;
     }
 }
 @media all and (max-width: 767px) {
-    nav#footerMenu{
-        display: none;
+    footer{
+        background-color: transparent;
+        height: auto;
+    }
+    p.direitos{
+        left: 5%;
     }
     div#abaDireitos{
         top: 75px;
