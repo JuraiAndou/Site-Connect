@@ -31,8 +31,3 @@ $(document).ready(function(){
             $(this).css({left : 0, 'width' : 'auto'});
         });
     });
-
-    on("section#galeria section#button2 div").click(function(){
-        $("section#galeria ul").hide();
-    });
-});

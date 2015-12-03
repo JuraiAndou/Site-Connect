@@ -32,7 +32,7 @@
                 <li  id="btn2">
                     <a href="#">Internet<span class="arrow-down"></span></a>
                     <ul class="dropdown" id="dropdown2">
-                        <li class="submenu"><a href="internet.php">Internet</a></li>
+                        <li class="submenu"><a href="internet.html">Internet</a></li>
                         <li class="submenu"><a href="">Teste</a></li>
                         <li class="submenu"><a href="">Teste</a></li>
                     </ul>

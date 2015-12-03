@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*slide*/
+div.slider{
+    width: 100%;
+    height: 479px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: none;
+}
+div.slider div.slider-item{
+    width: 100%;
+    height: 479px;
+    position: relative;
+    border: none;
+}
+div.slider div.slider-item p{
+    padding: 10px;
+    width: 590px;
+    font: normal 13pt Arial;
+    line-height: 22px;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.10);
+    position: absolute;
+    bottom: 40px;
+    left: 1000px;
+    /*display: none;*/
+}
+/*box*/
+div.box{
+    position: relative;
+    width: 100%;
+    margin: 25px auto;
+    border: none;
+}
+/*pager*/
+.pager{
+    position: absolute;
+    z-index: 999;
+    bottom : 10px;
+    left: 1800px;
+}
+.pager a{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    background-color: darkorange;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.pager a:hover{
+    background-color: orange;
+}
+.pager a.ativo{
+    background-color: orange;
+}

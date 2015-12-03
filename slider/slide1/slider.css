@@ -60,9 +60,9 @@ section#galeria ul li span{
     color: #ffffff;
 }
 section#galeria section#button2{
-    display: inline-block;
+    display: table;
 }
-section#galeria section#button2 div{
+section#galeria section#button2 a{
     width: 10px;
     height: 10px;
     background-color: green;
