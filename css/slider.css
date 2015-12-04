@@ -41,22 +41,30 @@ div.box{
     z-index: 999;
     bottom : 10px;
     left: 1800px;
+    width: 87px;
 }
 .pager a{
-    display: block;
-    width: 10px;
-    height: 10px;
+    display: none;
+    width: 14px;
+    height: 14px;
     border-radius: 100%;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
-    background-color: darkorange;
-    float: left;
-    margin: 0 5px;
+    background-color: #f4f4f4;
+    margin: 5px auto;
     cursor: pointer;
-}
-.pager a:hover{
-    background-color: orange;
-}
-.pager a.ativo{
-    background-color: orange;
+}.pager div{
+     display: block;
+     width: 24px;
+     height: 24px;
+     background-color: #f3a700;
+     border-radius: 100%;
+     -moz-border-radius: 100%;
+     -webkit-border-radius: 100%;
+     float: left;
+     margin: 0 2px;
+     cursor: pointer;
+ }
+.pager div.ativo a{
+    display: block;
 }

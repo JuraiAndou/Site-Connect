@@ -7,12 +7,16 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/topo.css">
     <link  rel="stylesheet" href="css/rodape.css">
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="js/javascript.js"></script>
+    <!--Slider links-->
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <link rel="stylesheet" href="css/slider.css"/>
 </head>
 <body>
 <header>
-    <img src="imagens/logo.gif" alt="" class="logo">
+    <a href="index.php"><img src="imagens/logo.gif" alt="" class="logo"></a>
     <button  class="btnCliente">
         <img src="imagens/areaClienteIcon.png" alt="">
         <span id="txtBtn">Área Cliente</span>
@@ -20,7 +24,7 @@
     <nav id="nav">
         <div class="navigation" id="navigation">
             <ul id="ul">
-                <li><a href="#">Ínicio</a></li>
+                <li><a href="index.php">Ínicio</a></li>
                 <li  id="btn">
                     <a href="#">Empresa<span class="arrow-down"></span></a>
                     <ul class="dropdown" id="dropdown">
@@ -32,7 +36,7 @@
                 <li  id="btn2">
                     <a href="#">Internet<span class="arrow-down"></span></a>
                     <ul class="dropdown" id="dropdown2">
-                        <li class="submenu"><a href="internet.html">Internet</a></li>
+                        <li class="submenu"><a href="internet.php">Internet</a></li>
                         <li class="submenu"><a href="">Teste</a></li>
                         <li class="submenu"><a href="">Teste</a></li>
                     </ul>
@@ -50,32 +54,64 @@
         </div>
     </nav>
 </header>
-<div id="conteudo">
-    <img src="imagens/bg-topo-2pagina.png" /><img src="imagens/bg-topo-2pagina.png" /><img src="imagens/bg-topo-2pagina.png" />
-</div>
+<!--Conteúdo-->
+<div class="box">
+    <span class="pager"></span>
 
-<footer>
-    <nav id="footerMenu">
-        <ul>
-            <li class="li1"><img src="imagens/logoSemNome.png" id="logoSemNome"></li>
-            <li class="li1"><a id="home" href="#" class="link">Home</a></li>
-            <li class="li1"><a id="empresa" href="#" class="link">A empresa</a>
-                <ul class="submenu">
-                    <li><a class="subLink">submenu</a></li>
-                    <li><a class="subLink">submenu</a></li>
-                    <li><a class="subLink">submenu</a></li>
-                </ul>
-            </li>
-
-            <li class="li1"><a id="cobertura" href="#" class="link">Cobertura</a></li>
-            <li class="li1"><a id="assinatura" href="#" class="link">Assinaturas</a></li>
-            <li class="li1"><a id="contato" href="#">Contato</a></li>
-        </ul>
-    </nav>
-
-    <div id="abaDireitos">
-        <p class="direitos">Copyright 2015 Connect<span id="spanDireitos"> - Alguns direitos reservados.</span></p>
+    <div class="slider">
+        <div class="slider-item">
+            <p>
+                A certificação de metodologias que nos auxiliam a lidar com o aumento do diálogo entre os diferentes
+                setores produtivos representa uma abertura para a melhoria do remanejamento dos quadros funcionais.
+            </p>
+            <img src="imagens/bg-topo-2pagina.png"/></div>
+        <div class="slider-item">
+            <p>          A certificação de metodologias que nos auxiliam a lidar com a determinação clara de objetivos
+                acarreta um processo de reformulação e modernização dos procedimentos normalmente adotados. Acima de tudo,
+                é fundamental ressaltar que a contínua expansão de nossa atividade assume importantes posições no
+                estabelecimento do orçamento setorial.
+            </p>
+            <img src="imagens/bg-topo.png"/></div>
+        <div class="slider-item">
+            <p>
+                As experiências acumuladas demonstram que a determinação clara de objetivos acarreta um processo de
+                reformulação e modernização das novas proposições.
+            </p>
+            <img src="imagens/bg-baixo.png"/></div>
     </div>
-</footer>
+</div>
+<img src="imagens/bg-topo-2pagina.png"/>
+<img src="imagens/bg-topo-2pagina.png"/>
+<img src="imagens/bg-topo-2pagina.png"/>
+<img src="imagens/bg-topo-2pagina.png"/>
+<img src="imagens/bg-topo-2pagina.png"/>
+<img src="imagens/bg-topo-2pagina.png"/>
+<img src="imagens/bg-topo-2pagina.png"/>
+<!--Roda pé-->
+<div id="footer">
+    <footer style="position: relative;">
+        <nav id="footerMenu">
+            <ul>
+                <li class="li1"><img src="imagens/logoSemNome.png" id="logoSemNome"></li>
+                <li class="li1"><a id="home" href="#" class="link">Home</a></li>
+                <li class="li1"><a id="empresa" href="#" class="link">A empresa</a>
+                    <ul class="submenu">
+                        <li><a class="subLink">submenu</a></li>
+                        <li><a class="subLink">submenu</a></li>
+                        <li><a class="subLink">submenu</a></li>
+                    </ul>
+                </li>
+
+                <li class="li1"><a id="cobertura" href="#" class="link">Cobertura</a></li>
+                <li class="li1"><a id="assinatura" href="#" class="link">Assinaturas</a></li>
+                <li class="li1"><a id="contato" href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div id="abaDireitos">
+            <p class="direitos">Copyright 2015 Connect<span id="spanDireitos"> - Alguns direitos reservados.</span></p>
+        </div>
+    </footer>
+</div>
 </body>
 </html>

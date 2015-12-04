@@ -7,7 +7,7 @@ $(document).ready(function(){
         fx : 'fade',
         pager : $('.pager'),
         pagerAnchorBuilder : function(index, DOMelement ){
-            return '<a></a>'
+            return '<div><a></a></div>'
         },
         activePagerClass:'ativo'
     });
