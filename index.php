@@ -7,6 +7,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/topo.css">
     <link  rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/index.css">
     <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="js/javascript.js"></script>
     <!--Slider links-->
@@ -80,16 +81,19 @@
             <img src="imagens/bg-baixo.png"/></div>
     </div>
 </div>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
+<div class="amarela">
+    <div class="acessoRapido" style="background-image: url('imagens/fundoGrid.gif')">
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+    </div>
+</div>
 <!--Roda pé-->
 <div id="footer">
-    <footer style="position: relative;">
+    <footer style="position: relative; margin-top: 3px">
         <nav id="footerMenu">
             <ul>
                 <li class="li1"><img src="imagens/logoSemNome.png" id="logoSemNome"></li>
