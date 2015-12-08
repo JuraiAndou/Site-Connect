@@ -57,7 +57,7 @@
 
 <!-- Conteudo -->
 
-<div id="img">
+<div id="Tabelabanner">
     <img src="imagens/bg-topo-2pagina.png" id="banner"/>
     <div class="anuncio">
         <h4>Ínicio/Internet/Para sua casa</h4>
@@ -65,7 +65,8 @@
         <p>Diversão, informação e entreterimento 24h por dia em alta velocidade! Acesse a internet sem interferências, 
         interrupções e, principalmente, sem perda de tempo. Escolha seu plano e Connect sua casa com o mundo</p>
     </div>
-    <div class="tabela">    
+</div> 
+<div class="tabela">    
         <table border="0">
             <tr>
                 <td>
@@ -85,7 +86,9 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="3" class="pontinhos">•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••</td>
+                <td colspan="3">
+                    <img src="imagens/Pontilhado.png" alt="" class="pontilhado">
+                </td>
             </tr>
             <tr>
                 <td>
@@ -105,17 +108,15 @@
                 </td>
             </tr>
         </table>
-    </div>
-    <div>
-        <img src="imagens/bg-baixo.png" alt="" class="faleConosco">
-        <div class="blocoIMG">
-            <h2 id="h2">Fale com a gente</h2>
-            <h5 id="h5">Entre em contato conosco agora mesmo e conheça melhor as soluções da Connect para você!</h5>
-            <h4 id="h4">0800 000 0000 | (85) 0000-0000</h4>
-        </div>        
-    </div>
-</div> 
-
+</div>
+<div id="info">
+    <img src="imagens/bg-baixo.png" alt="" class="faleConosco">
+    <div class="blocoIMG">
+        <h2 id="h2">Fale com a gente</h2>
+        <h5 id="h5">Entre em contato conosco agora mesmo e conheça melhor as soluções da Connect para você!</h5>
+        <h4 id="h4">0800 000 0000 | (85) 0000-0000</h4>
+    </div>        
+</div>
 
 
 <!-- footer -->
