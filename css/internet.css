@@ -1,0 +1,133 @@
+body{
+	overflow-x:hidden;
+}
+div#img{
+	position: relative;
+	width: 100%;
+	height: 700px;
+}
+img#banner{
+	max-width: 100%;   /* Máximo da largura da imagem */
+	width: 100%;
+	min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+	background-repeat: no-repeat;
+	position: relative;
+	top:-10px;
+}
+div.anuncio{
+	position: relative;
+	width: 43.5%;
+	margin: 0 auto;
+}
+div.anuncio h4{
+	color:#daad38;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+div.anuncio h2{
+	color:#040b59;
+	margin-bottom: 5px;
+}
+div.anuncio {
+	font-size: 13pt;
+	color: black;
+}
+
+div.tabela{
+	background-color: #00306e;
+
+}
+div.blocoIMG{
+	position: relative;
+	margin: 0 auto;
+	background-color: #00306e;
+	top:-250px;
+	width: 600px;
+	height: 200px;
+	text-align: center;
+	border-radius: 10px;
+	border:1px solid black;
+}
+h2#h2{
+	position: relative;
+	color:white;
+	top:30px;
+}
+h4#h4{
+	position: relative;
+	color:white;
+	top:100px;
+}
+h5#h5{
+	position: relative;
+	top:60px;
+	color:white;
+}
+div img.faleConosco{
+	position: relative;
+	margin-top: 7%;
+}
+table{
+	position: relative;
+	margin-top: 1%!important;
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 1000px;
+	line-height: 100px;
+}
+td.pontinhos{
+	font-size: 30pt;
+	color:white;
+	text-align: center;
+	position: relative;
+	top:-20px;
+}
+div.Fundotop label{
+	position: relative;
+	left:170px;
+	font-family: "Trebuchet",sans-serif;
+	font-size: 20pt;
+	top:-15px;
+}
+div.Fundotop{
+	background-color: #bababa;
+	width:335px;
+	height: 60px;
+	position: absolute;
+	z-index:1;
+}
+button.Fundobottom{
+	background-color: #6d6d6d;
+	width: 335px;
+	height: 60px;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: -128.6px;
+	border:none;
+}
+button.Fundobottom a{
+	position: relative;
+	left:50px;
+	text-decoration: none;
+	font-size: 14pt;
+	font-weight: 500;
+	font-family: "Trebuchet",sans-serif;
+	color:white;
+}
+img.imgMEGAS{
+	z-index: 998;
+	position: relative;
+}
+
+
+
+@media only screen and (max-width: 841px){
+  img#banner{
+    position: relative;
+    top:72.3px;
+  }
+  div.anuncio{
+  	position: relative;
+  	top:90px;
+  }
+}

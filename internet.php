@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/topo.css">
+    <link rel="stylesheet" href="css/internet.css"/>
     <link  rel="stylesheet" href="css/rodape.css">
-    <script type="text/javascript" src="js/javascript.js"></script>
     <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <!--Slider links-->
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
 </head>
 <body>
 <header>
-    <a href="index.php"><img src="imagens/logo.gif" onclick="" class="logo"></a>
+    <a href="index.php"><img src="imagens/logo.gif" alt="" class="logo"></a>
     <button  class="btnCliente">
         <img src="imagens/areaClienteIcon.png" alt="">
         <span id="txtBtn">Área Cliente</span>
@@ -52,16 +56,70 @@
 </header>
 
 <!-- Conteudo -->
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
-<img src="imagens/bg-topo-2pagina.png"/>
+
+<div id="img">
+    <img src="imagens/bg-topo-2pagina.png" id="banner"/>
+    <div class="anuncio">
+        <h4>Ínicio/Internet/Para sua casa</h4>
+        <h2>INTERNET PARA SUA CASA</h2>
+        <p>Diversão, informação e entreterimento 24h por dia em alta velocidade! Acesse a internet sem interferências, 
+        interrupções e, principalmente, sem perda de tempo. Escolha seu plano e Connect sua casa com o mundo</p>
+    </div>
+    <div class="tabela">    
+        <table border="0">
+            <tr>
+                <td>
+                    <div class="Fundotop"><label for="">R$00,00</label></div>
+                    <img src="imagens/image-01-mega.png" alt="" class="imgMEGAS">
+                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
+                </td>
+                <td>
+                    <div class="Fundotop"><label for="">R$00,00</label></div>
+                    <img src="imagens/image-02-mega.png" alt="" class="imgMEGAS">
+                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
+                </td>
+                <td>
+                    <div class="Fundotop"><label for="">R$00,00</label></div>
+                    <img src="imagens/image-04-mega.png" alt="" class="imgMEGAS"> 
+                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="pontinhos">•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="Fundotop"><label for="">R$00,00</label></div>
+                    <img src="imagens/image-08-mega.png" alt="" class="imgMEGAS">
+                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
+                </td>
+                <td>
+                    <div class="Fundotop"><label for="">R$00,00</label></div>
+                    <img src="imagens/image-10-mega.png" alt="" class="imgMEGAS">
+                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
+                </td>
+                <td>
+                    <div class="Fundotop"><label for="">R$00,00</label></div>
+                    <img src="imagens/image-20-mega.png" alt="" class="imgMEGAS">
+                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <img src="imagens/bg-baixo.png" alt="" class="faleConosco">
+        <div class="blocoIMG">
+            <h2 id="h2">Fale com a gente</h2>
+            <h5 id="h5">Entre em contato conosco agora mesmo e conheça melhor as soluções da Connect para você!</h5>
+            <h4 id="h4">0800 000 0000 | (85) 0000-0000</h4>
+        </div>        
+    </div>
+</div> 
+
+
 
 <!-- footer -->
-<div id="footer">
+<!-- <div id="footer">
     <footer>
         <nav id="footerMenu">
             <ul>
@@ -85,6 +143,6 @@
             <p class="direitos">Copyright 2015 Connect<span id="spanDireitos"> - Alguns direitos reservados.</span></p>
         </div>
     </footer>
-</div>
+</div> -->
 </body>
 </html>

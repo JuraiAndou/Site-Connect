@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+ul#ul{
+  z-index: 999;
+}
 body {
   background: #FFF;
   font-size: 15px;
@@ -139,6 +142,9 @@ img.img1{
 */
 
 @media only screen and (max-width: 841px){
+  img#banner{
+    pos
+  }
   img.img1{
     position: relative;
     top:72px;
