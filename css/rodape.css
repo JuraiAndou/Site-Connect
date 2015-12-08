@@ -7,8 +7,8 @@ div#footer{
     width: 100%;
     height: 182px;
     margin-top: 0.1%;
-    position: relative;
-    bottom: -37px;
+    position: absolute;
+    bottom: 0;
 }
 footer {
     padding: 0;
@@ -19,7 +19,7 @@ footer {
     bottom: 0;
 }
 
-/*aba de links do footer*/
+
 nav#footerMenu{
     padding: 0;
     width: 800px;
@@ -82,7 +82,7 @@ a#contato{
     padding-left: 20px;
     padding-right: 20px;
 }
-/*aba de copyright*/
+
 div#abaDireitos{
     padding-bottom: 2px;
     padding-top: 14px;
@@ -101,7 +101,7 @@ p.direitos {
     transition: 0.5s;
     margin-bottom: 15px;
 }
-/*media das abas*/
+
 @media all and (max-width: 1388px){
     p.direitos{
         left: -19% !important;
@@ -171,3 +171,16 @@ p.direitos {
         display: none;
     }
 }
+div#body{
+    min-height: 100%;
+    position: relative;
+}
+/*
+div#footer{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}*/
