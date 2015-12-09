@@ -6,6 +6,10 @@ div#Tabelabanner{
 	width: 100%;
 	height: 630px;
 }
+div#info{
+	position: relative;
+	height: 300px;
+}
 img#banner{
 	max-width: 100%;   /* Máximo da largura da imagem */
 	width: 100%;
@@ -35,46 +39,62 @@ div.anuncio {
 
 div.tabela{
 	background-color: #00306e;
-	padding-top: 20px;
+	padding-top: 35px;
 	padding-bottom: 35px;
-}
-div.blocoIMG{
 	position: relative;
+	top:25px;
+	border:2px solid black;
+}
+div.SegundoBloco{
+	position: relative;
+	top:80px;
 	margin: 0 auto;
 	background-color: #00306e;
-	top:-250px;
 	width: 600px;
 	height: 200px;
 	text-align: center;
 	border-radius: 10px;
 	border:1px solid black;
 	max-width: 100%;   /* Máximo da largura da imagem */
+	max-height: 150px;
 	width: 34%;
 	min-height: auto;      /* Mínimo da altura, por padrão “auto” */
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	transition:1s;	
 }
+/********************/
+div.PrimeiroBloco{
+	background-image: url("../imagens/bg-baixo.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	height: 600px;
+	position: relative;
+	margin-top: 7%;
+}
+/******************/
 h2#h2{
 	position: relative;
 	color:white;
-	top:30px;
+	top:20px;
 }
 h4#h4{
 	position: relative;
 	color:white;
-	top:100px;
+	top:70px;
 }
 h5#h5{
 	position: relative;
-	top:60px;
+	top:40px;
 	color:white;
 }
 div img.faleConosco{
 	position: relative;
-	margin-top: 7%;
+	margin-top: 5%;
 	max-width: 100%;   /* Máximo da largura da imagem */
 	width: 100%;
 	min-height: auto;      /* Mínimo da altura, por padrão “auto” */
 	background-repeat: no-repeat;
+	border:2px solid black;
 }
 img.pontilhado{
 	position: relative;
@@ -82,7 +102,6 @@ img.pontilhado{
 }
 table{
 	position: relative;
-	margin-top: 1%!important;
 	margin: 0 auto;
 	border-collapse: collapse;
 }
@@ -127,16 +146,49 @@ img.imgMEGAS{
 	z-index: 998;
 	position: relative;
 }
-
+table.miniTable{position:relative;display: none;transition:1s;}
 
 
 @media only screen and (max-width: 841px){
-  img#banner{
-    position: relative;
-    top:72.3px;
-  }
-  div.anuncio{
-  	position: relative;
-  	top:90px;
-  }
+  	img#banner{
+    	position: relative;
+    	top:72.3px;
+  	}
+  	div.anuncio{
+  		position: relative;
+  		top:90px;
+  		width: 100%;
+  		height: 250px;
+  		margin-bottom: 5%;
+  	}
+}
+@media only screen and (max-width: 1005px){
+	table.miniTable{
+		position: relative;
+		display: block;
+		margin:0 auto;
+		width: 300px;
+		right:80px;
+		transition:1s;
+	}
+	table#tabela{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1724px){
+	div.SegundoBloco{
+		position: relative;
+		top:5px;
+		transition:1s;
+	}
+
+}
+@media only screen and (max-width: 409px){
+	div.tabela{
+		position: relative;
+		top:100px;
+	}
+	h2{
+		font-size: 15pt;
+	}	
 }
