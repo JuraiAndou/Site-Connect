@@ -176,11 +176,70 @@ p.direitos {
     padding: 0;
 }
 div#footer{
-    margin: 1px;
     width: 100%;
-    height: 250px;
-    background-color: blue;
+    height: 100%;
+    background-color: #ffffff;
     position: relative;
     top: 100%;
+    border: 1px red solid;
 }
 
+/*Menu footer*/
+
+div#footer nav#footerMenu{
+    position: relative;
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px green solid;
+    height: 150px;
+}
+div#footer nav#footer ul li{
+    position: relative;
+    top: 22px;
+}
+div#footer nav#footerMenu ul{
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    list-style: none;
+}
+div#footer nav#footerMenu ul li.li1{
+     margin-top: 10px;
+ }
+div#footer nav#footerMenu ul li.li1{
+    display: inline-block;
+    position: relative;
+    left: 106px;
+    bottom: 81px;
+}
+div#footer nav#footerMenu ul li#liSub{
+    width: 72px;
+}
+
+div#footer nav#footerMenu ul li.l1{
+    float: left;
+}
+div#footer nav#footerMenu ul.submenu{
+    height: 100%;
+    list-style: none;
+}
+div#footer nav#footerMenu ul li a.subLink{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    color: black;
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+
+/*Copyright*/
+
+div#footer div#abaDireitos{
+    position: relative;
+    border: 1px #000000 solid;
+    bottom: 0;
+    width: 100%;
+}

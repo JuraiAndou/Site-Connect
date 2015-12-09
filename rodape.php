@@ -1,9 +1,9 @@
 <div id="footer">
     <nav id="footerMenu">
         <ul>
-            <li class="li1"><img src="imagens/logoSemNome.png" id="logoSemNome"></li>
+            <li id="img"><img src="imagens/logoSemNome.png" id="logoSemNome"></li>
             <li class="li1"><a id="home" href="#" class="link">Home</a></li>
-            <li class="li1"><a id="empresa" href="#" class="link">A empresa</a>
+            <li class="li1" id="liSub"><a id="empresa" href="#" class="link">A empresa</a>
                 <ul class="submenu">
                     <li><a class="subLink">submenu</a></li>
                     <li><a class="subLink">submenu</a></li>
