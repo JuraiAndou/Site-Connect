@@ -1,31 +1,28 @@
 div.amarela{
     width: 100%;
-    background-color: #d89600;
     background-image: radial-gradient(#ffb200, #d89600 180%);
-    height: 600px;
+    height: 643px;
 }
 div.amarela div.acessoRapido{
     position: relative;
     display: block;
     left: 70%;
-    padding-left: 35px;
-    padding-top: 25px;
     height: 587px;
     width: 418px;
-    background-repeat: no-repeat;
     border: 1px solid red;
-    background-image: url("../imagens/fundoGrid.gif");
+    background: no-repeat gray url("../imagens/fundoGrid.gif");
     z-index: 10000;
 }
-div.amarela div.acessoRapido button{
+div.amarela div.acessoRapido div.botoes{
+    margin-left: 25px;
+    margin-top: 80px;
+}
+div.amarela div.acessoRapido div.botoes a.botao{
+    display: inline-block;
     border: none;
     border-radius: 5px;
     margin: 5px;
-    background-color: #ffffff;
-    background-image: linear-gradient(to bottom, #f2f2f2, #d1d3d1);
-    background: -moz-linear-gradient(to bottom, #f2f2f2, #d1d3d1);
-    background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#d1d3d1));
-    background: -ms-linear-gradient(to bottom, #f2f2f2, #d1d3d1);
+    background: linear-gradient(to bottom, #f2f2f2, #d1d3d1 180%) #ffffff;
     width: 170px;
     height: 150px;
 }
