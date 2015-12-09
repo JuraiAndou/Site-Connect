@@ -1,4 +1,3 @@
-<?php include('cabecalho.php') ?>
 <div id="Tabelabanner">
         <img src="imagens/bg-topo-2pagina.png" id="banner"/>
         <div class="anuncio">
@@ -110,5 +109,4 @@
             </div> 
         </div>
     </div>        
-</div> 
-<?php include('rodape.php') ?>
+</div>
