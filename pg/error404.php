@@ -13,6 +13,7 @@
 		margin: 0 auto;
 		margin-top: 12%;
 		text-align: center;
+        padding-top: 15px;
 	}
 	h1#msg_erro{
 		font-size: 50pt;
@@ -21,6 +22,9 @@
 	p{
 		font-weight: 600;
 	}
+    div#footer{
+        position: absolute;
+    }
 </style>
 <body>
 	<div id="erro">
