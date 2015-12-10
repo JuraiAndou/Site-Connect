@@ -86,7 +86,8 @@
             </div>
         </div>
         <!--Fim Mini Tabela-->
-    </div>
+    </div>        
+</div>
     <div id="info">
         <div class="img_info">
             <div class="bloco_info">
@@ -95,5 +96,4 @@
                 <h4 id="h4">0800 000 0000 | (85) 0000-0000</h4>
             </div> 
         </div>
-    </div>        
-</div>
+    </div>
