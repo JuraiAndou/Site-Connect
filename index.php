@@ -1,15 +1,16 @@
 <?php
-include('cabecalho.php');
+include('pg/cabecalho.php');
 
 
 $pagina = (isset($_GET['pagina'])? $_GET['pagina'] :  'conteudo');
-
-if (file_exists($pagina.".php")) {
-	include ($pagina.".php");
+,
+if (file_exists("pg/".$pagina.".php")) {
+	include ("pg/".$pagina.".php");
 }
 else {
-	include('error404.php');
+
+	include('pg/error404.php');
 }
 
 
-include('rodape.php');
+include('pg/rodape.php');
