@@ -36,15 +36,6 @@ div.anuncio {
 	font-size: 13pt;
 	color: black;
 }
-
-div.tabela{
-	background-color: #00306e;
-	padding-top: 35px;
-	padding-bottom: 35px;
-	position: relative;
-	top:25px;
-	border:2px solid black;
-}
 div.SegundoBloco{
 	position: absolute;
 	margin-top: 30px;
@@ -92,57 +83,23 @@ div img.faleConosco{
 	background-repeat: no-repeat;
 	border:2px solid black;
 }
-img.pontilhado{
-	position: relative;
-	left:18px;
-}
-table{
-	position: relative;
+
+/*Tabela*/
+div.tabela{
+	width: 70%;
+	border: 1px solid black;
 	margin: 0 auto;
-	border-collapse: collapse;
 }
-td.pontinhos{
-	text-align: center;
-	position: relative;
+div#primeira_linha{
+	width: 20%;
+	height: 200px;
+	border: 1px solid red;
 }
-div.Fundotop label{
-	position: relative;
-	left:170px;
-	font-family: "Trebuchet",sans-serif;
-	font-size: 20pt;
-	top:15px;
+div#primeira_coluna{
+
 }
-div.Fundotop{
-	background-color: #bababa;
-	width:335px;
-	height: 60px;
-	position: absolute;
-	z-index:1;
-}
-button.Fundobottom{
-	background-color: #6d6d6d;
-	width: 334px;
-	height: 60px;
-	position: absolute;
-	margin-top: 60px;
-	margin-left: -128.6px;
-	border:none;
-	cursor: pointer;
-}
-button.Fundobottom a{
-	position: relative;
-	left:50px;
-	text-decoration: none;
-	font-size: 14pt;
-	font-weight: 500;
-	font-family: "Trebuchet",sans-serif;
-	color:white;
-}
-img.imgMEGAS{
-	z-index: 998;
-	position: relative;
-}
-table.miniTable{position:relative;display: none;transition:1s;}
+
+
 /*
 *
 *Media Queries

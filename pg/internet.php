@@ -6,93 +6,12 @@
         <p>Diversão, informação e entreterimento 24h por dia em alta velocidade! Acesse a internet sem interferências, 
         interrupções e, principalmente, sem perda de tempo. Escolha seu plano e Connect sua casa com o mundo.</p>
     </div>
-    <div class="tabela">    
-        <table border="0" id="tabela">
-            <tr>
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-01-mega.png" alt="" class="imgMEGAS">
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-02-mega.png" alt="" class="imgMEGAS">
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-04-mega.png" alt="" class="imgMEGAS"> 
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <img src="imagens/Pontilhado.png" alt="" class="pontilhado">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-08-mega.png" alt="" class="imgMEGAS">
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-10-mega.png" alt="" class="imgMEGAS">
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-20-mega.png" alt="" class="imgMEGAS">
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-            </tr>
-        </table>
-            <!--  -->
-        <table class="miniTable">
-            <tr> 
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-01-mega.png" alt="" class="imgMEGAS">
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>     
-                </td>
-            </tr>
-            <tr> 
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-02-mega.png" alt="" class="imgMEGAS">
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-            </tr>
-           <tr> 
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-04-mega.png" alt="" class="imgMEGAS"> 
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-08-mega.png" alt="" class="imgMEGAS">
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-            </tr>
-            <tr> 
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-10-mega.png" alt="" class="imgMEGAS">
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="Fundotop"><label for="">R$00,00</label></div>
-                    <img src="imagens/image-20-mega.png" alt="" class="imgMEGAS">
-                    <button class="Fundobottom"><a href="">CONTRATAR</a></button>
-                </td>
-            </tr>
-        </table>
+    <div class="tabela">
+        <div id="primeira_linha">
+            <div>
+                
+            </div>
+        </div>
     </div>
     <div id="info">
         <div class="PrimeiroBloco">

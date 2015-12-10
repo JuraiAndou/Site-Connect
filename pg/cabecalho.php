@@ -20,7 +20,7 @@
 
 
 <header>
-    <a href="index.php?pagina=pg/conteudo"><img src="imagens/logo.gif" alt="" class="logo"></a>
+    <a href="index.php?pagina=conteudo"><img src="imagens/logo.gif" alt="" class="logo"></a>
     <button  class="btnCliente">
         <img src="imagens/areaClienteIcon.png" alt="">
         <span id="txtBtn">Área Cliente</span>
@@ -28,7 +28,7 @@
     <nav id="nav">
         <div class="navigation" id="navigation">
             <ul id="ul">
-                <li><a href="index.php?pagina=pg/conteudo" >Ínicio</a></li>
+                <li><a href="index.php?pagina=conteudo" >Ínicio</a></li>
                 <li  id="btn">
                     <a href="#">Empresa<span class="arrow-down"></span></a>
                     <ul class="dropdown" id="dropdown">
@@ -40,7 +40,7 @@
                 <li  id="btn2">
                     <a href="#">Internet<span class="arrow-down"></span></a>
                     <ul class="dropdown" id="dropdown2">
-                        <li class="submenu"><a href="index.php?pagina=pg/internet">Internet</a></li>
+                        <li class="submenu"><a href="index.php?pagina=internet">Internet</a></li>
                         <li class="submenu"><a href="">Teste</a></li>
                         <li class="submenu"><a href="">Teste</a></li>
                     </ul>
