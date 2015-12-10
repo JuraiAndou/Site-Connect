@@ -36,29 +36,34 @@ div.anuncio {
 	font-size: 13pt;
 	color: black;
 }
-div.SegundoBloco{
-	position: absolute;
-	margin-top: 30px;
-	margin-left: 35%;
-	left:0;right:0;
+
+div.tabela{
 	background-color: #00306e;
-	width: 600px;
-	height: 200px;
-	text-align: center;
-	border-radius: 10px;
-	border:1px solid black;
-	transition:1s;	
+	padding-top: 35px;
+	padding-bottom: 35px;
+	position: relative;
+	top:25px;
+	border:2px solid black;
 }
-/********************/
-div.PrimeiroBloco{
+/*Bloco de informações*/
+div.img_info{
 	background-image: url("../imagens/bg-baixo.png");
 	background-repeat: no-repeat;
-	background-size:100%;
-	height: 100%;
+	background-size:100% 50%;
+	height: 600px;
 	position: relative;
 	margin-top: 7%;
+	padding-top: 35px;
 }
-/******************/
+div.bloco_info{
+	width: 600px;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #00285b;
+}
 h2#h2{
 	position: relative;
 	color:white;
@@ -74,30 +79,110 @@ h5#h5{
 	top:40px;
 	color:white;
 }
-div img.faleConosco{
-	position: relative;
-	margin-top: 5%;
-	max-width: 100%;   /* Máximo da largura da imagem */
-	width: 100%;
-	min-height: auto;      /* Mínimo da altura, por padrão “auto” */
-	background-repeat: no-repeat;
-	border:2px solid black;
-}
-
+/*Bloco de informações*/
 /*Tabela*/
-div.tabela{
-	width: 70%;
-	border: 1px solid black;
+img.pontilhado{
+	position: relative;
+	left:18px;
+}
+table{
+	position: relative;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+td.pontinhos{
+	text-align: center;
+	position: relative;
+}
+div.Fundotop label{
+	position: relative;
+	left:170px;
+	font-family: "Trebuchet",sans-serif;
+	font-size: 20pt;
+	top:15px;
+}
+div.Fundotop{
+	background-color: #bababa;
+	width:335px;
+	height: 60px;
+	position: absolute;
+	z-index:1;
+}
+button.Fundobottom{
+	background-color: #6d6d6d;
+	width: 334px;
+	height: 60px;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: -128.6px;
+	border:none;
+	cursor: pointer;
+}
+button.Fundobottom a{
+	position: relative;
+	left:50px;
+	text-decoration: none;
+	font-size: 14pt;
+	font-weight: 500;
+	font-family: "Trebuchet",sans-serif;
+	color:white;
+}
+img.imgMEGAS{
+	z-index: 998;
+	position: relative;
+}
+/*Tabela*/
+/*Mini tabela*/
+div.mini_tabela{
+	position: relative;
+	width: 65%;
+	height: 900px;
+	margin: 0 auto;
+	min-width: 282px;
+	display: none
+}
+div.coluna_bloco{
+	position: relative;
+	width: 280px;
+	height: 380px;
 	margin: 0 auto;
 }
-div#primeira_linha{
-	width: 20%;
-	height: 200px;
-	border: 1px solid red;
+div.primeiro_bloco{
+	height: 120px;
+	background: -webkit-linear-gradient(rgba(186,186,186,1) 0%, rgba(186,186,186,1) 50%, rgba(109,109,109,1) 51%, rgba(109,109,109,1) 100%);
+	background: -o-linear-gradient(rgba(186,186,186,1) 0%, rgba(186,186,186,1) 50%, rgba(109,109,109,1) 51%, rgba(109,109,109,1) 100%);
+	background: linear-gradient(rgba(186,186,186,1) 0%, rgba(186,186,186,1) 50%, rgba(109,109,109,1) 51%, rgba(109,109,109,1) 100%);
+	margin-bottom: 5px;
 }
-div#primeira_coluna{
-
+div.segundo_bloco{
+	height: 120px;
+	background: -webkit-linear-gradient(rgba(186,186,186,1) 0%, rgba(186,186,186,1) 50%, rgba(109,109,109,1) 51%, rgba(109,109,109,1) 100%);
+	background: -o-linear-gradient(rgba(186,186,186,1) 0%, rgba(186,186,186,1) 50%, rgba(109,109,109,1) 51%, rgba(109,109,109,1) 100%);
+	background: linear-gradient(rgba(186,186,186,1) 0%, rgba(186,186,186,1) 50%, rgba(109,109,109,1) 51%, rgba(109,109,109,1) 100%);
+	margin-bottom: 5px;
 }
+div.terceiro_bloco{
+	height: 120px;
+	background: -webkit-linear-gradient(rgba(186,186,186,1) 0%, rgba(186,186,186,1) 50%, rgba(109,109,109,1) 51%, rgba(109,109,109,1) 100%);
+	background: -o-linear-gradient(rgba(186,186,186,1) 0%, rgba(186,186,186,1) 50%, rgba(109,109,109,1) 51%, rgba(109,109,109,1) 100%);
+	background: linear-gradient(rgba(186,186,186,1) 0%, rgba(186,186,186,1) 50%, rgba(109,109,109,1) 51%, rgba(109,109,109,1) 100%);
+}
+label.preco{
+	position: absolute;
+	right: 30px;
+	margin-top: 20px;
+	font-size: 20pt;
+}
+button.btn_contratar{
+	border:none;
+	background: none;
+	position: absolute;
+	margin-top: 75px;
+	right: 10px;
+	font-size: 17pt;
+	cursor: pointer;
+}
+/*FIM Mini tabela*/
 
 
 /*
@@ -106,6 +191,7 @@ div#primeira_coluna{
 *
 */
 @media only screen and (max-width: 841px){
+
   	img#banner{
     	position: relative;
     	top:72.3px;
@@ -119,21 +205,22 @@ div#primeira_coluna{
   	}
 }
 @media only screen and (max-width: 1005px){
-	table.miniTable{
-		position: relative;
+	div.mini_tabela{
 		display: block;
-		margin:0 auto;
-		width: 300px;
-		transition:1s;
 	}
 	table#tabela{
 		display: none;
 	}
 }
-@media only screen and (max-width: 1460px){
-	div.SegundoBloco{
+@media only screen and (max-width: 600px){
+	div.bloco_info{
+		width: 250px;
+		height: 200px;
 		position: relative;
 		margin: 0 auto;
+		text-align: center;
+		border-radius: 15px;
+		background-color: #00285b;
 	}
 }
 @media only screen and (max-width: 409px){

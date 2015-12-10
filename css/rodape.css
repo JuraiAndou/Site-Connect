@@ -85,7 +85,6 @@ a#contato{
 
 div#abaDireitos{
     padding-bottom: 2px;
-    padding-top: 14px;
     background-color: #00225c;
     position: relative;
     top: 74%!important;
@@ -149,6 +148,9 @@ p.direitos {
     }
     nav#footerMenu{
         display: none;
+    }
+    footer{
+
     }
 }
 @media all and (max-width: 767px) {
