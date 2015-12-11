@@ -207,6 +207,8 @@ button.btn_contratar{
 @media only screen and (max-width: 1005px){
 	div.mini_tabela{
 		display: block;
+		height: 100%;
+		padding-bottom: 55px;
 	}
 	table#tabela{
 		display: none;
