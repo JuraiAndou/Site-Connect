@@ -54,7 +54,7 @@
                     </a>
                     <a href="#" class="botao">
                         <img class="botoes_icon" src="imagens/icon-archive.png"/>
-                        <h3 id="altDdsCadstr">Alterar Dados <br/>Cadastrais</h3>
+                        <h3 id="txt6">Alterar Dados <br/>Cadastrais</h3>
                     </a>
                 </div>
             </div>

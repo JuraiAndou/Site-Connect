@@ -136,6 +136,10 @@ p.direitos {
     }
 }
 @media all and (max-width: 897px) {
+    div#abaDireitos{
+        position: absolute;
+        width: 100%;
+    }
     p.direitos{
         left: 13% !important;
     }
@@ -143,17 +147,16 @@ p.direitos {
         padding: 0;
         border: 0;
         background-color: #00225c;
-        height: 10px;
+        height: 1px;
     }
     nav#footerMenu{
         display: none;
     }
+    div#footer{
+        height: 100%;
+    }
 }
 @media all and (max-width: 767px) {
-    footer{
-        background-color: transparent;
-        height: auto;
-    }
     p.direitos{
         left: 5%;
     }
@@ -162,9 +165,6 @@ p.direitos {
     }
     div#footer{
         height: 100%;
-    }
-    footer{
-        height: 100%
     }
 }
 @media all and (max-width: 410px){
